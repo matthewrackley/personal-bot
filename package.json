@@ -1,0 +1,24 @@
+{
+  "name": "discord-personal-bot",
+  "version": "1.2.4",
+  "description": "A personal discord bot for usage between you and your friends",
+  "main": "index.js",
+  "scripts": {
+    "test": "deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "personal"
+  ],
+  "author": "Matthew Rackley & sources",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@sapphire/discord-utilities": "^3.0.1",
+    "@sapphire/discord.js-utilities": "^6.0.4",
+    "discord.js": "^14.8.0",
+    "ffmpeg": "^0.0.4",
+    "ytdl-core": "^4.11.2"
+  }
+}
